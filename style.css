@@ -1,0 +1,198 @@
+body{
+    /* font-family: 'Montserrat',
+    sans-serif; */
+}
+
+.main-header {
+    padding: 10px;
+   background-color: #E8FAF3;
+   box-shadow: 2px 2px 5px #d4d4d4;
+}
+img,
+svg {
+    vertical-align: middle;
+    width: 100%;
+}
+
+h1{
+    color: black;
+    font-size: 55px;
+    font-weight: 900;
+    /* font-family: 'Montserrat' */
+    
+}
+h2{
+     color: black;
+     font-size: 40px;
+     font-weight: 400;
+   
+}
+h3{
+    font-size: 40px;
+    color: #6B6A6A;
+    font-weight: 300;
+}
+/* .massage {
+    background-color: #E8FAF3;
+} */
+.massage-body{
+  background-color: #E8FAF3;
+  border-radius: 10px;
+   box-shadow: 5px 5px 10px #888888;
+}
+.dicussion {
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #E8FAF3;
+    border-radius:10px;
+    box-shadow: 5px 5px 5px #c5c5c5;
+}
+.dicussion-row{
+    padding: 10px 100px;
+}
+
+
+.dicussion .row img{
+    width: 80%;
+    text-align: right;
+}
+
+.discuss-para p {
+    font-size: 40px;
+    color: #6b6a6a;
+}
+ .discuss-button {
+     background-color: #78AA97;
+     border-radius: 10px;
+     font-size: 24px;
+     font-weight: 500;
+     color: #fff;
+     margin-bottom: 30px;
+ }
+
+@media screen and (max-width: 992px) {
+    h2 {
+        color: black;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .dicussion-row {
+        padding: 10px 50px;
+    }
+    .discuss-para p {
+            font-size: 28px;
+            color: #6b6a6a;
+    }
+    .dicussion .row img {
+        width: 100%;
+        text-align: right;
+    }
+    .discuss-button{
+        background-color: #78AA97;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    h1 {
+        text-align: left;
+        color: black;
+        font-size: 40px;
+        font-weight: 900;
+        /* font-family: 'Montserrat'; */
+    }
+    h2 {
+        color: black;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+    }
+    h3 {
+        font-size: 30px;
+        color: #6B6A6A;
+        font-weight: 300;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        color: black;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .dicussion {
+        padding: 5px;
+        margin: 20px auto;
+        text-align: center;
+        background-color: #E8FAF3;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #c5c5c5;
+    }
+
+    .dicussion-row {
+        padding: 10px 50px;
+    }
+
+    .discuss-para p {
+        font-size: 24px;
+        color: #6b6a6a;
+    }
+
+    .dicussion .row img {
+        width: 50%;
+        text-align: center;
+    }
+
+    .discuss-button {
+        background-color: #78AA97;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        text-align: center;
+        color: black;
+        font-size: 40px;
+        font-weight: 900;
+        /* font-family: 'Montserrat'; */
+    }
+
+    h2 {
+        color: black;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 24px;
+        color: #6B6A6A;
+        font-weight: 300;
+    }
+    .logo{
+     width:100%;
+     text-align: center;
+    }
+    .logo img{
+        width: 30%;
+        text-align: center;
+    }
+
+    .meet-logo img{
+        width:40%
+    }
+
+
+}
+@media screen and (max-width: 600px) {
+    .dicussion {
+       margin: 0px !important;
+    }
+
+}
